@@ -73,7 +73,7 @@ public class GameRenderer extends JPanel {
             g.setColor(Color.BLACK);
             g.drawRect(snakeX[i], snakeY[i], unitSize, unitSize);
             
-            // Draw face on the head (first segment)
+            // Draw face on the head
             if (i == 0) {
                 drawSnakeFace(g, snakeX[i], snakeY[i], unitSize);
             }
